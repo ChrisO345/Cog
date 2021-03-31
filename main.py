@@ -118,4 +118,4 @@ async def chris(ctx, other_stuff=""):
     else:
         await ctx.channel.send("My Daddy is the bestest person ever")
 
-client.run("Nzk4OTA3ODY1MTEyNTEwNTE0.X_727g.GayH1VmCYiGqHAXgQ0vYM7kzGio")
+client.run(open(r"../cog_token.txt", "r").read())
