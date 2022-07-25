@@ -114,7 +114,7 @@ async def yigga(ctx):
 @client.command()
 async def chris(ctx, other_stuff=""):
     if other_stuff == "github":
-        await ctx.channel.send(r"https://github.com/chrisoliver345")
+        await ctx.channel.send(r"https://github.com/chriso345")
     else:
         await ctx.channel.send("My Daddy is the bestest person ever")
 
